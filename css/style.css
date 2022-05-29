@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body::after {
+  background: url('/images/dog_pattern-1.jpg');
+  background-size: cover;
+  filter: opacity(0.7);
+  height: 100vh;
+  content: '';
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bg-nav {
+  /* background-color: rgb(190, 220, 95); */
+  background-color: rgb(245, 220, 198) !important;
+}
+
+.bg-nav ul li a {
+  color: rgb(0, 0, 0);
+}
+
+.dog_main img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 10px rgb(150, 150, 150);
+}
+
+.left {
+  line-height: 6rem;
+  /* margin-top: 6rem; */
+}
