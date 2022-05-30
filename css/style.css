@@ -12,7 +12,6 @@ body::after {
   background: url('/images/dog_pattern-1.jpg');
   background-size: cover;
   filter: opacity(0.7);
-  height: auto;
   content: '';
   opacity: 0.4;
   position: absolute;
@@ -30,6 +29,10 @@ body::after {
 
 .bg-nav ul li a {
   color: rgb(0, 0, 0);
+}
+
+.hero {
+  height: 90vh;
 }
 
 .dog_main img {
