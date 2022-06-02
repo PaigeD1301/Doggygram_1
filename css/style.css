@@ -32,21 +32,16 @@ body::after {
 }
 
 .hero {
-  height: 90vh;
+  height: 100vh;
+  margin-top: 6rem;
 }
 
 .dog_main img {
-  max-width: 100%;
+  max-width: 80%;
   border-radius: 20px;
   box-shadow: 0px 0px 15px 10px rgb(150, 150, 150);
 }
 
 .left {
   line-height: 6rem;
-  /* margin-top: 6rem; */
-}
-
-.an_link {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
 }
