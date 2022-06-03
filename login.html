@@ -61,7 +61,7 @@
     <!-- ***** Header ***** -->
 
     <body>
-      <main class="container-fluid form_container text-body">
+      <main class="container-fluid text-body">
         <section class="row justify-content-center">
           <div class="col-4">
 
@@ -69,36 +69,47 @@
               <h2 class="font-weight-bold pt-5">Login</h2>
             </div>
 
-            <form class="row justify-content-center">
-              <div class="col-10 form-group mt-3">
+            <form>
+              <div class="row justify-content-center">
+              <div class="col-9 form-group mt-3">
                 <label for="exampleInputEmail1">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="email" class="form-control rounded-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
               </div>
-              <div class="col-10 form-group mt-3">
+              <div class="col-9 form-group mt-3">
                 <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input type="password" class="form-control rounded-3" id="exampleInputPassword1" placeholder="Password">
               </div>
-              <div class="col-10 form-group form-check mt-3 mb-3">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Stay logged in</label>
-                <a class=" text-decoration-none text-dark ms-5 pe-0" href="#">Forgot password?</a>
               </div>
-         
-              <button type="submit" class="col-4 btn btn-secondary rounded-4 m-auto">Log in</button>
             </form>
 
+            <form>
+              <div class="row">
+                <div class="col-6 form-group form-check mt-3 mb-3">
+                  <input type="checkbox" class="col-6 custom-control-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Stay logged in</label>
+               </div>
+               <div class="col mt-3">
+                  <a class="pw_link text-decoration-none text-dark ms-5 pe-0" href="#">Forgot password?</a>
+                </div>
+              </div>
+            </form>
+
+            <div class="row justify-content-center">
+              <button type="submit" class="col-3 btn btn-secondary rounded-4 m-auto">Log in</button>
+            </div>
+         
             <div class="row justify-content-center mt-2">
-              <hr class="column col-9 border-3 border-top border-secondary my-2">
-              <button class="col-6 btn rounded-4 mt-3 ms-1 border-secondary">
+              <hr class="col-9 border-3 border-top border-secondary my-2">
+              <button class="col-6 cont btn rounded-4 mt-3 ms-1 border-secondary">
                 <img class="me-1" src="images/facebook.png" alt="Facebook" width="30" height="30">Continue with Facebook</button>
             </div>
             <div class="row justify-content-center">
-              <button class="col-6 btn mt-3 btn rounded-4 border-2 border-secondary">
+              <button class="col-6 cont btn mt-3 btn rounded-4 border-2 border-secondary">
                 <img class="me-1" src="images/google.png" alt="Google" width="30"> Continue with Google</button>
             </div>
 
             <div class="row justify-content-center mt-3">
-                <button class="col-4 btn btn-secondary my-2 rounded-4">Sign up</button>
+                <button class="col-3 btn btn-secondary my-2 rounded-4">Sign up</button>
             </div>
           </div>  
         </section>
