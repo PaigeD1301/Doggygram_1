@@ -9,7 +9,7 @@ body {
 }
 
 body::after {
-  background: url('/images/dog_pattern-1.jpg');
+  background: url('/images/dog_pattern-2.jpg');
   background-repeat: repeat !important;
   background-size: cover;
   position: fixed;
