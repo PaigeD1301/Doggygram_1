@@ -50,8 +50,8 @@ body {
 
 .contact_hero {
   margin-top: 10rem;
-  height: 50vh;
   width: 500px;
+  height: 500px;
   padding-top: 20px;
   box-shadow: -5px 5px 10px #c4c3c3;
 }
@@ -68,15 +68,6 @@ body {
 .txt-or {
   color: #db963b;
   /* font-size: 2rem; */
-}
-
-.contact_left {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-  width: 50%;
-  margin-top: 2rem;
 }
 
 .dog_main img {
