@@ -6,10 +6,13 @@
 body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  width: 100%;
 }
 
 body {
-  background: rgba(250, 250, 250, 0.7) url('/images/dog_pattern-1.jpg');
+  background: rgba(250, 250, 250, 0.8)
+    url('https://wallpaperaccess.com/full/3504955.jpg');
   background-repeat: repeat !important;
   background-size: cover;
   background-attachment: fixed;
@@ -31,6 +34,7 @@ body {
 
 .bg-nav ul li a {
   color: rgb(0, 0, 0);
+  font-size: 1.1rem;
 }
 
 .bg-nav ul li a:hover,
@@ -40,23 +44,75 @@ body {
   transition: ease-in 0.3s;
 }
 
-.hero {
-  height: 100vh;
+.about_hero {
   margin-top: 6rem;
+}
+
+.contact_hero {
+  margin-top: 10rem;
+  height: 50vh;
+  width: 500px;
+  padding-top: 20px;
+  box-shadow: -5px 5px 10px #c4c3c3;
+}
+
+.login_hero {
+  margin-top: 10rem;
+  width: 500px;
+  height: auto;
+  padding-top: -20px;
+  padding-bottom: 20px;
+  box-shadow: -5px 5px 10px #c4c3c3;
+}
+
+.txt-or {
+  color: #db963b;
+  /* font-size: 2rem; */
+}
+
+.contact_left {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  width: 50%;
+  margin-top: 2rem;
 }
 
 .dog_main img {
   max-width: 80%;
   border-radius: 20px;
-  box-shadow: 0px 0px 15px 10px rgb(150, 150, 150);
+  box-shadow: 0px 0px 15px 10px #969696;
 }
 
 .left {
   line-height: 6rem;
 }
 
+.buttons {
+  background-color: #a3a3a3;
+  color: #fff;
+  transition: linear 0.2s;
+}
+
+.buttons:hover {
+  background-color: #fff;
+  color: #717070;
+  border: solid 1px #cecece;
+  box-shadow: 0px 0px 3px #d1c2b6;
+  transition: ease-in 0.2s;
+}
+.main-who p,
+.main-who ol {
+  font-size: 1.1rem;
+}
+
+.cont {
+  border: 0.5px solid #cfcfcf;
+}
 .cont:hover {
-  background-color: rgb(245, 220, 198);
-  box-shadow: 0px 0px 10px rgb(134, 119, 107);
-  transition: ease-in 0.3s;
+  border: 0.5px solid #d7d7d7;
+  background-color: rgb(242, 232, 223);
+  box-shadow: 0px 0px 3px #86776b;
+  transition: ease-in 0.2s;
 }
