@@ -4,15 +4,9 @@ class ItemsController {
     this._currentId = currentId;
   }
 
-  get items() {
-    return this._items;
-  }
-
   addItem(name, description, img, author, createdAt) {
     const item = {
       id: this._currentId++,
-      // name: name,
-      // description: description,
       name,
       description,
       img,
@@ -20,7 +14,6 @@ class ItemsController {
       createdAt,
     };
     this._items.push(item);
-    return item;
   }
 
   localStorage() {
@@ -42,3 +35,5 @@ class ItemsController {
 
 const newPost = new ItemsController();
 console.log(newPost.addItem('A', 'B', 'img', 'C', 'Jan 1, 2020'));
+
+export default ItemsController;
