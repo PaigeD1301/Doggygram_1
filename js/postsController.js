@@ -98,21 +98,6 @@ export class PostsController {
             console.error('Error:', error);
             });
   }          
-  // GET all posts using fetch
-
-          
-
 }
   
-
-
-
-// update({name, description, img, author, createdAt}) {
-//   // todo 
-
-// };
-
-// delete({name, description, img, author, createdAt}) {
-//   // todo
-// };
 
