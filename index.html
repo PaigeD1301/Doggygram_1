@@ -13,11 +13,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    " />
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Doggygram</title>
   </head>
 
@@ -71,23 +67,20 @@
         </div>
       </div>
     </nav>
-    <!-- ***** Header ***** -->
 
+    <!-- ***** Main ***** -->
     <main class="index_hero container-fluid justify-content-center">
       <h1 class="text-center">Welcome to Doggygram</h1>
       <section class="row ms-4">
         <div class="col-6 text-center mt-5">
-          <h2>Connect with other pet lovers</h2>
+          <h3 class="display-6 font-weight-bold">Connect with other pet lovers</h3>
           <h5>Unlock the full potential of global networking!</h5>
-          <button
-            type="button"
-            class="btn buttons btn_index rounded-4 mt-4 fs-5"
-          >
-            Create a FREE account
+          <button onclick="location.href='login.html'" type="button" class="btn buttons btn_index rounded-4 mt-4 fs-5">
+          Create a FREE account
           </button>
         </div>
 
-        <div class="col-5 dog_main ms-6 mt-4">
+        <div class="col-5 dog_main ms-6 mt-5">
           <img src="images/Dog_main.png" alt="dog_main" />
         </div>
       </section>
@@ -95,17 +88,16 @@
 
     <!-- ***** Footer ***** -->
     <div
-      class="card-footer fixed-bottom bg-nav text-muted text-center py-2 mb-auto"
-    >
+      class="card-footer fixed-bottom bg-nav text-muted text-center py-2 mb-auto">
       <span class="fs-6 font-weight-bold text-body">Doggygram 2022 &copy</span>
     </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/itemsController.js"></script>
-    <script src="js/main.js"></script>
+      crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+    <!-- <script src="./js/postsController.js" type="module"></script> -->
+    
   </body>
 </html>
